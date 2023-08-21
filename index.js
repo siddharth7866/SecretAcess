@@ -8,7 +8,7 @@ const port = 5000;
 
 app.get("/", (rq, res) => {
   const d = new Date("June 26, 2023 11:13:00");
-  var day = d.getDay();
+  const day = d.getDay();
   console.log(day);
 
   let type = "weekday";
